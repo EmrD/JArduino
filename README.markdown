@@ -46,7 +46,7 @@ Please read our [2-minute tutorial](https://github.com/SINTEF-9012/JArduino/wiki
 You can now use the JArduino constructor to configure the IP of your device. Don't forget to set the communication module to ethernet:
 
 ```java
-JArduino arduino = new BlinkEthernet(ip, JArduinoCom.Ethernet)
+JArduino arduino = new BlinkEthernet(ip, JArduinoCom.Ethernet);
 ```
 
 To run a sample using Ethernet:
